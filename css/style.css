@@ -65,7 +65,20 @@ img {
     .container{
         width: 768px;
     }
+}
 
+@media screen and (max-width: 480px) {
+    .container{
+        width: 480px;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .lessons .col{
+        width: 0;
+    }
 }
 
 /* TEXT */
