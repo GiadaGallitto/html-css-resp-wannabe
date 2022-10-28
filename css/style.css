@@ -61,6 +61,13 @@ img {
     padding-right: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+
+}
+
 /* TEXT */
 .text-center {
     text-align: center;
